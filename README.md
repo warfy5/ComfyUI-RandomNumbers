@@ -45,7 +45,7 @@ A simple and efficient custom node for ComfyUI that generates random numbers bet
 | Input | Type | Default | Description |
 |-------|------|---------|-------------|
 | `min_value` | FLOAT | 0.0 | Minimum value (inclusive) |
-| `max_value` | FLOAT | 100.0 | Maximum value (inclusive) |
+| `max_value` | FLOAT | 999999.0 | Maximum value (inclusive) |
 | `seed` | INT | 0 | Random seed for reproducibility |
 
 ### Node Outputs
