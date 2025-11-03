@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-randomnumber"
+description = "A simple and efficient custom node that generates random numbers between two user-selectable values, perfect for seed variation and parameter randomization in ComfyUI workflows"
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+[project.urls]
+Repository = "https://github.com/warfy5/ComfyUI-RandomNumbers.git"
+Documentation = "https://github.com/warfy5/ComfyUI-RandomNumbers#readme"
+
+# Used by Comfy Registry https://comfyregistry.org
+[tool.comfy]
+PublisherId = "warfy5"
+DisplayName = "Random Number Generator"
+# Icon = "https://maybe_one_day_I_will_make_a_icon"
